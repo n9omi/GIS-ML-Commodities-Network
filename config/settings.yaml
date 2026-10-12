@@ -1,0 +1,92 @@
+# GIS-ML-Commodities-Network settings. Every pipeline script reads this file.
+
+satellite:
+  sentinel2:
+    catalog: planetary-computer          # planetary-computer | earth-search
+    stac_url:
+      planetary-computer: https://planetarycomputer.microsoft.com/api/stac/v1
+      earth-search: https://earth-search.aws.element84.com/v1
+    collection: sentinel-2-l2a
+    max_scene_cloud_pct: 60              # scene-level filter; pixel-level masking does the real work
+    min_valid_fraction: 0.20             # AOI-scene result kept only if this share of pixels is clear
+    # Scene Classification Layer classes masked for vegetation indices
+    scl_mask_vegetation: [0, 1, 3, 8, 9, 10, 11]
+    # Saturated pixels (class 1) are KEPT for hotspots: hot smelter pixels often saturate SWIR
+    scl_mask_hotspot: [0, 3, 8, 9, 10, 11]
+    reflectance_scale: 10000
+    boa_offset_baseline: "04.00"         # processing baseline from which the -1000 DN offset applies
+    boa_offset: -1000
+    hotspot_nhi_threshold: 0.0           # NHI_SWIR > 0 or NHI_SWNIR > 0 flags a hot pixel
+    hotspot_min_b12: 0.15                # minimum B12 reflectance for a hot pixel (screens bright soils)
+    cdl_collection: usda-cdl             # optional corn mask on Planetary Computer; skipped if unavailable
+    cdl_corn_class: 1
+  nightfire:
+    token_url: https://eogauth.mines.edu/auth/realms/master/protocol/openid-connect/token
+    # Nightly CSV URL template with a {date} (YYYYMMDD) placeholder. Copy the current path from EOG's
+    # VNF download page before a live run, or download CSVs manually and pass --nightfire-dir.
+    url_template: null
+    min_flare_temp_k: 1400               # separates gas flares (hot) from biomass fires (cooler); configurable
+    columns:                             # VNF CSV column names (v3); remap here if EOG changes the schema
+      lat: Lat_GMTCO
+      lon: Lon_GMTCO
+      temp: Temp_BB
+      radiant_heat: RH
+      date: Date_Mscan
+  sentinel5p:
+    backend: earthengine
+    collections:
+      SO2: { id: "COPERNICUS/S5P/OFFL/L3_SO2", band: "SO2_column_number_density" }
+      NO2: { id: "COPERNICUS/S5P/OFFL/L3_NO2", band: "tropospheric_NO2_column_number_density" }
+    site_buffer_m: 5000
+    ring_inner_m: 20000
+    ring_outer_m: 40000
+  alphaearth:
+    collection: "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL"
+
+windows:
+  corn: { start: "2019-04-01", end: "2026-10-01" }
+  permian: { start: "2017-01-01", end: "2026-10-01" }   # VNF M11 band from Dec 2017; long enough for a nowcast test
+  copper: { start: "2023-01-01", end: "2026-10-01" }
+
+network:
+  import_file: data/raw/usitc/genimp_2023_2025_hts6.json
+  export_file: data/raw/usitc/totexp_2023_2025_hts6.json
+  years: ["2023", "2025"]
+  focal_year: "2025"
+  incidence_min_share: 0.01            # supplier counts as a link in binary metrics at >= 1% share
+  null_model_samples: 300
+  robustness_random_permutations: 500
+  monte_carlo:
+    n_sims: 20000
+    annual_failure_prob: 0.05           # illustrative prior, identical for every supplier
+    correlations: [0.0, 0.3, 0.6]       # one-factor Gaussian copula loading^2
+    seed: 7
+  scenarios:
+    - { name: "China export restriction", countries: ["China"] }
+    - { name: "Canada disruption", countries: ["Canada"] }
+    - { name: "Chile + Peru disruption", countries: ["Chile", "Peru"] }
+
+regimes:
+  start: "2006-01"
+  candidate_states: [2, 3, 4, 5]
+  min_state_months: 20                 # every regime must cover >= 20 months to be usable
+  restarts: 20
+  seed: 11
+
+nowcast:
+  test_start: "2015-01"
+  publication_lag_months: 2            # EIA state production arrives about two months after the month ends
+  price_lags: 12
+  quantiles: [0.1, 0.5, 0.9]
+  conformal_alpha: 0.2
+  seed: 3
+
+local_projections:
+  horizons: 12
+  control_lags: 2
+  ci: 0.90
+
+event_study:
+  estimation_weeks: 104
+  gap_weeks: 4
+  car_weeks: 3

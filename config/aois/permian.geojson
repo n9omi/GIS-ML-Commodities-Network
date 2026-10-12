@@ -1,0 +1,52 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "permian",
+    "name": "Permian Basin (Delaware + Midland, generalized outline)",
+    "approx": true
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -104.6,
+       31.0
+      ],
+      [
+       -103.9,
+       32.9
+      ],
+      [
+       -102.5,
+       33.6
+      ],
+      [
+       -101.0,
+       33.3
+      ],
+      [
+       -100.8,
+       31.4
+      ],
+      [
+       -102.0,
+       30.8
+      ],
+      [
+       -104.0,
+       30.6
+      ],
+      [
+       -104.6,
+       31.0
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

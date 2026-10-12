@@ -1,0 +1,80 @@
+[
+  {
+    "event": "kakula_2025",
+    "name": "Kamoa-Kakula seismic event and flooding",
+    "date": "2025-05-18",
+    "ticker": "CPER",
+    "event_week": "2025-05-23",
+    "beta": 0.5949,
+    "ar_week0": 0.0753,
+    "t_week0": 2.5305,
+    "car_0_2": 0.0489,
+    "t_car": 0.9501,
+    "p_car": 0.3443
+  },
+  {
+    "event": "el_teniente_2025",
+    "name": "El Teniente Andesita sector collapse",
+    "date": "2025-07-31",
+    "ticker": "CPER",
+    "event_week": "2025-08-01",
+    "beta": 0.4908,
+    "ar_week0": -0.2518,
+    "t_week0": -8.0335,
+    "car_0_2": -0.2589,
+    "t_car": -4.7696,
+    "p_car": 0.0
+  },
+  {
+    "event": "grasberg_incident_2025",
+    "name": "Grasberg Block Cave mud rush",
+    "date": "2025-09-08",
+    "ticker": "FCX",
+    "event_week": "2025-09-12",
+    "beta": 1.6444,
+    "ar_week0": -0.0557,
+    "t_week0": -1.2358,
+    "car_0_2": -0.2794,
+    "t_car": -3.5812,
+    "p_car": 0.0005
+  },
+  {
+    "event": "grasberg_incident_2025",
+    "name": "Grasberg Block Cave mud rush",
+    "date": "2025-09-08",
+    "ticker": "CPER",
+    "event_week": "2025-09-12",
+    "beta": 0.609,
+    "ar_week0": 0.0142,
+    "t_week0": 0.3513,
+    "car_0_2": 0.0373,
+    "t_car": 0.5338,
+    "p_car": 0.5946
+  },
+  {
+    "event": "grasberg_force_majeure_2025",
+    "name": "Grasberg force majeure declared",
+    "date": "2025-09-24",
+    "ticker": "FCX",
+    "event_week": "2025-09-26",
+    "beta": 1.6335,
+    "ar_week0": -0.2193,
+    "t_week0": -4.8748,
+    "car_0_2": -0.0536,
+    "t_car": -0.6885,
+    "p_car": 0.4927
+  },
+  {
+    "event": "grasberg_force_majeure_2025",
+    "name": "Grasberg force majeure declared",
+    "date": "2025-09-24",
+    "ticker": "CPER",
+    "event_week": "2025-09-26",
+    "beta": 0.6128,
+    "ar_week0": 0.0295,
+    "t_week0": 0.7328,
+    "car_0_2": 0.069,
+    "t_car": 0.9883,
+    "p_car": 0.3253
+  }
+]

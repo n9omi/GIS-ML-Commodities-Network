@@ -1,0 +1,33 @@
+# HTS 6-digit lines in the trade network, with a short label and a supply-chain group.
+# Codes validated against USITC DataWeb (2026 schedule) on 2026-10-12.
+imports:
+  "260300": { label: "Copper ores & concentrates", group: "Copper" }
+  "740311": { label: "Refined copper cathodes", group: "Copper" }
+  "280530": { label: "Rare-earth metals", group: "Rare earths & magnets" }
+  "284690": { label: "Rare-earth compounds", group: "Rare earths & magnets" }
+  "850511": { label: "Permanent magnets (metal)", group: "Rare earths & magnets" }
+  "250490": { label: "Natural graphite", group: "Battery materials" }
+  "380110": { label: "Artificial graphite", group: "Battery materials" }
+  "283691": { label: "Lithium carbonate", group: "Battery materials" }
+  "282520": { label: "Lithium hydroxide", group: "Battery materials" }
+  "810520": { label: "Cobalt, unwrought", group: "Battery materials" }
+  "750210": { label: "Nickel, unwrought", group: "Battery materials" }
+  "280461": { label: "Silicon >= 99.99%", group: "Solar & silicon" }
+  "854142": { label: "PV cells", group: "Solar & silicon" }
+  "854143": { label: "PV modules", group: "Solar & silicon" }
+  "760110": { label: "Aluminum, unwrought", group: "Aluminum" }
+  "260600": { label: "Bauxite (aluminum ores)", group: "Aluminum" }
+  "711021": { label: "Palladium", group: "Precious & PGM" }
+  "261210": { label: "Uranium ores", group: "Nuclear fuel" }
+  "284420": { label: "Enriched uranium", group: "Nuclear fuel" }
+  "270900": { label: "Crude oil", group: "Energy" }
+  "310420": { label: "Potash (KCl)", group: "Ag inputs" }
+exports:
+  "100590": { label: "Corn", group: "Ag exports" }
+  "120190": { label: "Soybeans", group: "Ag exports" }
+  "100199": { label: "Wheat", group: "Ag exports" }
+  "271111": { label: "LNG", group: "Energy exports" }
+  "270900": { label: "Crude oil", group: "Energy exports" }
+  "270112": { label: "Bituminous coal", group: "Energy exports" }
+  "260300": { label: "Copper ores & concentrates", group: "Copper exports" }
+  "740311": { label: "Refined copper cathodes", group: "Copper exports" }

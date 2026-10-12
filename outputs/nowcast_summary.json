@@ -1,0 +1,44 @@
+{
+  "sample": [
+    "2015-01-01",
+    "2026-07-01"
+  ],
+  "n": 139,
+  "metrics": [
+    {
+      "model": "naive",
+      "rmse": 0.05142,
+      "mae": 0.02816,
+      "pinball_q50": 0.01408,
+      "dm_vs_ar_stat": 2.43445,
+      "dm_vs_ar_p": 0.01619
+    },
+    {
+      "model": "ar",
+      "rmse": 0.03682,
+      "mae": 0.0189,
+      "pinball_q50": 0.00945,
+      "dm_vs_ar_stat": NaN,
+      "dm_vs_ar_p": NaN
+    },
+    {
+      "model": "ridge",
+      "rmse": 0.03602,
+      "mae": 0.01788,
+      "pinball_q50": 0.00894,
+      "dm_vs_ar_stat": -1.37285,
+      "dm_vs_ar_p": 0.17202
+    },
+    {
+      "model": "gbm_q50",
+      "rmse": 0.0351,
+      "mae": 0.01728,
+      "pinball_q50": 0.00864,
+      "dm_vs_ar_stat": -2.57558,
+      "dm_vs_ar_p": 0.01106
+    }
+  ],
+  "gbm_interval_coverage": 0.647,
+  "conformal_coverage": 0.841,
+  "satellite_experiment": "not run: no VIIRS Nightfire series yet (run 02 --live --module permian)"
+}

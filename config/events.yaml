@@ -1,0 +1,29 @@
+# Dated supply disruptions used for event studies and for validating satellite change points.
+# date = first public report of the physical incident; announcement = market-moving disclosure if different.
+events:
+  - id: kakula_2025
+    name: "Kamoa-Kakula seismic event and flooding"
+    asset: "Kakula underground mine, DRC (Ivanhoe / Zijin)"
+    date: "2025-05-18"
+    source: "https://www.livewiremarkets.com/wires/copper-crisis-runs-deep-with-mine-disasters"
+    tickers: ["CPER"]
+  - id: el_teniente_2025
+    name: "El Teniente Andesita sector collapse"
+    asset: "El Teniente, Chile (Codelco)"
+    date: "2025-07-31"
+    source: "https://www.bhrrc.org/en/latest-news/chile-the-collapse-at-a-codelco-mine-that-killed-six-workers-was-reportedly-caused-by-mining-activity/"
+    tickers: ["CPER"]
+    confounded_by: "US 50 % copper tariff excluding refined cathode, announced July 30, 2025; COMEX copper futures fell 22 % that day"
+    confounder_source: "https://www.spglobal.com/market-intelligence/en/news-insights/research/prices-decline-as-us-50-tariff-excludes-refined-copper"
+  - id: grasberg_incident_2025
+    name: "Grasberg Block Cave mud rush"
+    asset: "Grasberg, Indonesia (Freeport-McMoRan)"
+    date: "2025-09-08"
+    source: "https://projectblue.com/blue/news-analysis/1326/freeport-mcmoran-declares-force-majeure-at-grasberg-mine"
+    tickers: ["FCX", "CPER"]
+  - id: grasberg_force_majeure_2025
+    name: "Grasberg force majeure declared"
+    asset: "Grasberg, Indonesia (Freeport-McMoRan)"
+    date: "2025-09-24"
+    source: "https://theoregongroup.com/commodities/copper/freeport-declares-force-majeure-at-grasberg-after-deadly-mud-rush/"
+    tickers: ["FCX", "CPER"]

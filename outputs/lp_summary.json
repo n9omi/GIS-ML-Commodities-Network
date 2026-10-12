@@ -1,0 +1,30 @@
+{
+  "shock_sample": [
+    "2016-02-01",
+    "2026-07-01"
+  ],
+  "n_shock_months": 126,
+  "state_months": {
+    "restrictive": 97,
+    "accommodative": 29
+  },
+  "linear_beta_h0_h6_h12": {
+    "0": {
+      "beta": -2.68,
+      "lo": -4.99,
+      "hi": -0.37
+    },
+    "6": {
+      "beta": -3.88,
+      "lo": -6.93,
+      "hi": -0.84
+    },
+    "12": {
+      "beta": -3.28,
+      "lo": -8.44,
+      "hi": 1.87
+    }
+  },
+  "min_equality_p": 0.014268859212392071,
+  "h_of_min_equality_p": 1
+}

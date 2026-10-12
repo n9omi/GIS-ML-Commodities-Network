@@ -1,0 +1,178 @@
+{
+  "focal_year": "2025",
+  "prior_year": "2023",
+  "n_lines": 21,
+  "n_lines_neff_below_2": 6,
+  "top1_changes": [
+    {
+      "commodity": "Lithium carbonate",
+      "from": "Chile",
+      "to": "Argentina",
+      "value_usd": 159844385.0
+    },
+    {
+      "commodity": "Palladium",
+      "from": "Russia",
+      "to": "South Africa",
+      "value_usd": 2422098736.0
+    },
+    {
+      "commodity": "Silicon >= 99.99%",
+      "from": "Germany",
+      "to": "Malaysia",
+      "value_usd": 188149742.0
+    },
+    {
+      "commodity": "Bauxite (aluminum ores)",
+      "from": "Jamaica",
+      "to": "Guyana",
+      "value_usd": 137634198.0
+    },
+    {
+      "commodity": "Enriched uranium",
+      "from": "Russia",
+      "to": "United Kingdom",
+      "value_usd": 4383994590.0
+    },
+    {
+      "commodity": "PV cells",
+      "from": "Malaysia",
+      "to": "Indonesia",
+      "value_usd": 2451767634.0
+    },
+    {
+      "commodity": "Artificial graphite",
+      "from": "China",
+      "to": "Indonesia",
+      "value_usd": 529162350.0
+    },
+    {
+      "commodity": "PV modules",
+      "from": "Vietnam",
+      "to": "Indonesia",
+      "value_usd": 6386841887.0
+    },
+    {
+      "commodity": "Copper ores & concentrates",
+      "from": "Canada",
+      "to": "Japan",
+      "value_usd": 603770.0
+    }
+  ],
+  "communities": [
+    [
+      "Aluminum, unwrought",
+      "Cobalt, unwrought",
+      "Copper ores & concentrates",
+      "Crude oil",
+      "Nickel, unwrought",
+      "Potash (KCl)"
+    ],
+    [
+      "Natural graphite",
+      "Permanent magnets (metal)",
+      "Rare-earth compounds",
+      "Rare-earth metals"
+    ],
+    [
+      "Artificial graphite",
+      "PV cells",
+      "PV modules",
+      "Silicon >= 99.99%"
+    ],
+    [
+      "Lithium carbonate",
+      "Lithium hydroxide",
+      "Refined copper cathodes"
+    ]
+  ],
+  "nestedness": {
+    "nodf": 19.3832917923827,
+    "null_mean": 19.928681078866266,
+    "null_sd": 0.5454623683102297,
+    "z": -0.9998660185726649,
+    "p_greater": 0.8239202657807309
+  },
+  "top_betweenness": [
+    {
+      "country": "Canada",
+      "betweenness": 0.536
+    },
+    {
+      "country": "Indonesia",
+      "betweenness": 0.46
+    },
+    {
+      "country": "China",
+      "betweenness": 0.378
+    },
+    {
+      "country": "Chile",
+      "betweenness": 0.084
+    },
+    {
+      "country": "Malaysia",
+      "betweenness": 0.075
+    }
+  ],
+  "top_eigenvector": [
+    {
+      "country": "China",
+      "eigenvector": 0.423
+    },
+    {
+      "country": "Canada",
+      "eigenvector": 0.345
+    },
+    {
+      "country": "Japan",
+      "eigenvector": 0.301
+    },
+    {
+      "country": "Indonesia",
+      "eigenvector": 0.296
+    },
+    {
+      "country": "Germany",
+      "eigenvector": 0.234
+    }
+  ],
+  "robustness_R": {
+    "targeted_strength": 0.20316589938443838,
+    "targeted_dominance": 0.08863926174306173,
+    "random_mean": 0.4926538382937246
+  },
+  "retained_after_top3_dominance": 0.625825315490296,
+  "retained_after_top3_strength": 0.7489625371589431,
+  "top3_dominance_order": [
+    "Canada",
+    "China",
+    "Indonesia"
+  ],
+  "top3_strength_order": [
+    "Canada",
+    "Mexico",
+    "Chile"
+  ],
+  "china_scenario": {
+    "Rare-earth metals": 0.83,
+    "Natural graphite": 0.804,
+    "Permanent magnets (metal)": 0.724,
+    "Rare-earth compounds": 0.584,
+    "Artificial graphite": 0.267,
+    "Bauxite (aluminum ores)": 0.12,
+    "Copper ores & concentrates": 0.078,
+    "Lithium hydroxide": 0.036,
+    "Enriched uranium": 0.027,
+    "Silicon >= 99.99%": 0.01
+  },
+  "mc": {
+    "p": 0.05,
+    "n_sims": 20000,
+    "corr_es95_vs_hhi_rho0": 0.9698110419573908,
+    "expected_loss_range": [
+      0.04765847505059369,
+      0.05133239322583674
+    ]
+  }
+}

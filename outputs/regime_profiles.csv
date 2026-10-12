@@ -1,0 +1,5 @@
+state_smoothed,real10,d12_fedfunds,cpi_yoy,d12_unrate,usd_yoy,label,months,persistence
+R1,0.29,0.03,1.56,-0.74,2.78,Low-rate expansion,78,0.987
+R2,0.31,1.87,6.72,-1.63,4.04,Inflation and tightening,22,0.955
+R3,0.5,-1.51,1.18,2.48,1.0,Recession and easing,35,0.943
+R4,1.4,-0.05,2.75,0.03,-1.06,High real rates,101,0.98

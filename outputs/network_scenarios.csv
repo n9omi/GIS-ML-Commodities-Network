@@ -1,0 +1,127 @@
+hts6,loss_share,value_at_risk_usd,commodity,scenario,year
+280530,0.9878409990369459,21723076.0,Rare-earth metals,China export restriction,2023
+850511,0.7999408632042251,435216298.0,Permanent magnets (metal),China export restriction,2023
+284690,0.6718570370946935,106351003.0,Rare-earth compounds,China export restriction,2023
+250490,0.6668147918543947,1458550.0,Natural graphite,China export restriction,2023
+380110,0.6644031267457636,293297718.0,Artificial graphite,China export restriction,2023
+260600,0.1852051435160908,28995628.0,Bauxite (aluminum ores),China export restriction,2023
+280461,0.15156283823519467,17641796.0,Silicon >= 99.99%,China export restriction,2023
+284420,0.08159558615522695,314549942.0,Enriched uranium,China export restriction,2023
+282520,0.02722386048845538,1203992.0,Lithium hydroxide,China export restriction,2023
+854143,0.006533848799657548,121473698.00000001,PV modules,China export restriction,2023
+810520,0.003039262679471545,938700.0,"Cobalt, unwrought",China export restriction,2023
+283691,0.0025281426585744117,740957.0,Lithium carbonate,China export restriction,2023
+854142,0.0019436871912944084,1392513.0,PV cells,China export restriction,2023
+740311,0.0005964210776828505,3945695.0,Refined copper cathodes,China export restriction,2023
+760110,7.288705256870858e-05,462925.0,"Aluminum, unwrought",China export restriction,2023
+310420,3.0130569026542073e-05,120525.0,Potash (KCl),China export restriction,2023
+260300,0.0,0.0,Copper ores & concentrates,China export restriction,2023
+270900,0.0,0.0,Crude oil,China export restriction,2023
+261210,0.0,0.0,Uranium ores,China export restriction,2023
+750210,0.0,0.0,"Nickel, unwrought",China export restriction,2023
+711021,0.0,0.0,Palladium,China export restriction,2023
+280530,0.8302938259314201,6702067.0,Rare-earth metals,China export restriction,2025
+250490,0.8036188532033752,4968871.0,Natural graphite,China export restriction,2025
+850511,0.7242867133303839,283688546.0,Permanent magnets (metal),China export restriction,2025
+284690,0.5835024430545915,103109122.0,Rare-earth compounds,China export restriction,2025
+380110,0.26723420137506004,141410278.0,Artificial graphite,China export restriction,2025
+260600,0.11974242041211298,16480652.0,Bauxite (aluminum ores),China export restriction,2025
+260300,0.07812743263163124,47170.99999999999,Copper ores & concentrates,China export restriction,2025
+282520,0.0357955882841737,422162.0,Lithium hydroxide,China export restriction,2025
+284420,0.02702566975567367,118480390.0,Enriched uranium,China export restriction,2025
+280461,0.010083819301755939,1897268.0,Silicon >= 99.99%,China export restriction,2025
+854143,0.009214155139770098,58849352.0,PV modules,China export restriction,2025
+810520,0.0043370704185688985,1719315.0,"Cobalt, unwrought",China export restriction,2025
+283691,0.00144890294394764,231599.0,Lithium carbonate,China export restriction,2025
+854142,0.000489829045520388,1200947.0,PV cells,China export restriction,2025
+760110,2.5946144726952596e-05,127169.0,"Aluminum, unwrought",China export restriction,2025
+310420,7.295723431364935e-06,24054.0,Potash (KCl),China export restriction,2025
+740311,6.331651761309878e-06,104066.0,Refined copper cathodes,China export restriction,2025
+750210,5.9937483308653344e-06,7586.0,"Nickel, unwrought",China export restriction,2025
+270900,1.84777818557897e-07,25920.0,Crude oil,China export restriction,2025
+261210,0.0,0.0,Uranium ores,China export restriction,2025
+711021,0.0,0.0,Palladium,China export restriction,2025
+260300,0.9975536626784917,34605772.0,Copper ores & concentrates,Canada disruption,2023
+310420,0.8784069208447837,3513707094.0,Potash (KCl),Canada disruption,2023
+760110,0.7084384016839776,4499480162.0,"Aluminum, unwrought",Canada disruption,2023
+270900,0.5598191093838494,92409071857.0,Crude oil,Canada disruption,2023
+750210,0.5214114382445381,1150729567.0,"Nickel, unwrought",Canada disruption,2023
+261210,0.23341772190354232,65461794.0,Uranium ores,Canada disruption,2023
+810520,0.22649982570458274,69956239.0,"Cobalt, unwrought",Canada disruption,2023
+740311,0.1662810367782498,1100052094.0,Refined copper cathodes,Canada disruption,2023
+380110,0.014530407825886136,6414382.0,Artificial graphite,Canada disruption,2023
+250490,0.014346198737369928,31380.0,Natural graphite,Canada disruption,2023
+850511,0.007970167440358068,4336254.0,Permanent magnets (metal),Canada disruption,2023
+854143,0.007815213510588503,145296121.0,PV modules,Canada disruption,2023
+854142,0.0019241067321392853,1378485.0,PV cells,Canada disruption,2023
+284690,0.0008627485331938815,136568.0,Rare-earth compounds,Canada disruption,2023
+711021,0.00022783983383477594,623889.0,Palladium,Canada disruption,2023
+280530,0.0001932656427619652,4250.0,Rare-earth metals,Canada disruption,2023
+283691,0.00016377582992207614,48000.0,Lithium carbonate,Canada disruption,2023
+282520,0.00011305665024541433,5000.0,Lithium hydroxide,Canada disruption,2023
+260600,1.6607102737758813e-05,2600.0000000000005,Bauxite (aluminum ores),Canada disruption,2023
+284420,4.251375959554348e-06,16389.0,Enriched uranium,Canada disruption,2023
+280461,0.0,0.0,Silicon >= 99.99%,Canada disruption,2023
+310420,0.867586805344047,2860433679.0,Potash (KCl),Canada disruption,2025
+760110,0.6626633419414859,3247890406.0,"Aluminum, unwrought",Canada disruption,2025
+750210,0.6193965503819785,783940528.0,"Nickel, unwrought",Canada disruption,2025
+270900,0.6085316041683257,85362730782.0,Crude oil,Canada disruption,2025
+810520,0.1803936724447832,71512223.0,"Cobalt, unwrought",Canada disruption,2025
+740311,0.11723157690735773,1926799158.0,Refined copper cathodes,Canada disruption,2025
+260300,0.10774632724381801,65054.0,Copper ores & concentrates,Canada disruption,2025
+380110,0.014655339708125494,7755054.0,Artificial graphite,Canada disruption,2025
+850511,0.00861054401112002,3372577.0,Permanent magnets (metal),Canada disruption,2025
+284690,0.0017421750968509972,307855.0,Rare-earth compounds,Canada disruption,2025
+250490,0.0010835955122325803,6699.999999999999,Natural graphite,Canada disruption,2025
+854143,0.0010413191868014063,6650741.0,PV modules,Canada disruption,2025
+711021,0.00019495282871077803,472195.0,Palladium,Canada disruption,2025
+280461,2.591021357871434e-05,4875.0,Silicon >= 99.99%,Canada disruption,2025
+284420,1.6847648527777951e-06,7386.0,Enriched uranium,Canada disruption,2025
+261210,0.0,0.0,Uranium ores,Canada disruption,2025
+260600,0.0,0.0,Bauxite (aluminum ores),Canada disruption,2025
+282520,0.0,0.0,Lithium hydroxide,Canada disruption,2025
+280530,0.0,0.0,Rare-earth metals,Canada disruption,2025
+283691,0.0,0.0,Lithium carbonate,Canada disruption,2025
+854142,0.0,0.0,PV cells,Canada disruption,2025
+282520,0.9621487239431554,42551620.0,Lithium hydroxide,Chile + Peru disruption,2023
+740311,0.7946485103008147,5257092298.0,Refined copper cathodes,Chile + Peru disruption,2023
+283691,0.7047433097061677,206548664.0,Lithium carbonate,Chile + Peru disruption,2023
+310420,0.0019990858191611728,7996524.000000001,Potash (KCl),Chile + Peru disruption,2023
+750210,0.0002761760283249189,609507.0,"Nickel, unwrought",Chile + Peru disruption,2023
+270900,4.0837193847565335e-05,6740976.0,Crude oil,Chile + Peru disruption,2023
+850511,1.2037262246839089e-05,6549.0,Permanent magnets (metal),Chile + Peru disruption,2023
+854143,1.791146302540294e-06,33300.0,PV modules,Chile + Peru disruption,2023
+250490,0.0,0.0,Natural graphite,Chile + Peru disruption,2023
+261210,0.0,0.0,Uranium ores,Chile + Peru disruption,2023
+260600,0.0,0.0,Bauxite (aluminum ores),Chile + Peru disruption,2023
+260300,0.0,0.0,Copper ores & concentrates,Chile + Peru disruption,2023
+280530,0.0,0.0,Rare-earth metals,Chile + Peru disruption,2023
+380110,0.0,0.0,Artificial graphite,Chile + Peru disruption,2023
+284690,0.0,0.0,Rare-earth compounds,Chile + Peru disruption,2023
+284420,0.0,0.0,Enriched uranium,Chile + Peru disruption,2023
+280461,0.0,0.0,Silicon >= 99.99%,Chile + Peru disruption,2023
+760110,0.0,0.0,"Aluminum, unwrought",Chile + Peru disruption,2023
+711021,0.0,0.0,Palladium,Chile + Peru disruption,2023
+810520,0.0,0.0,"Cobalt, unwrought",Chile + Peru disruption,2023
+854142,0.0,0.0,PV cells,Chile + Peru disruption,2023
+282520,0.8153755636065665,9616285.0,Lithium hydroxide,Chile + Peru disruption,2025
+740311,0.5957118829368311,9791023756.0,Refined copper cathodes,Chile + Peru disruption,2025
+283691,0.42683783981526785,68227632.0,Lithium carbonate,Chile + Peru disruption,2025
+260300,0.0747635689086904,45140.00000000001,Copper ores & concentrates,Chile + Peru disruption,2025
+310420,0.0018418711066664523,6072649.0,Potash (KCl),Chile + Peru disruption,2025
+270900,0.00039149035389518804,54916927.0,Crude oil,Chile + Peru disruption,2025
+850511,0.00013178363317486362,51617.0,Permanent magnets (metal),Chile + Peru disruption,2025
+380110,5.669337586092435e-06,3000.0,Artificial graphite,Chile + Peru disruption,2025
+250490,0.0,0.0,Natural graphite,Chile + Peru disruption,2025
+261210,0.0,0.0,Uranium ores,Chile + Peru disruption,2025
+260600,0.0,0.0,Bauxite (aluminum ores),Chile + Peru disruption,2025
+280461,0.0,0.0,Silicon >= 99.99%,Chile + Peru disruption,2025
+280530,0.0,0.0,Rare-earth metals,Chile + Peru disruption,2025
+284420,0.0,0.0,Enriched uranium,Chile + Peru disruption,2025
+284690,0.0,0.0,Rare-earth compounds,Chile + Peru disruption,2025
+750210,0.0,0.0,"Nickel, unwrought",Chile + Peru disruption,2025
+711021,0.0,0.0,Palladium,Chile + Peru disruption,2025
+760110,0.0,0.0,"Aluminum, unwrought",Chile + Peru disruption,2025
+810520,0.0,0.0,"Cobalt, unwrought",Chile + Peru disruption,2025
+854142,0.0,0.0,PV cells,Chile + Peru disruption,2025
+854143,0.0,0.0,PV modules,Chile + Peru disruption,2025

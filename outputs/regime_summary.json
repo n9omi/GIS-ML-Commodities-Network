@@ -1,0 +1,96 @@
+{
+  "k": 4,
+  "bic": [
+    {
+      "k": 2,
+      "loglik": -1226.5,
+      "n_params": 43,
+      "bic": 2687.9,
+      "min_state_obs": 91,
+      "eligible": true,
+      "selected": false
+    },
+    {
+      "k": 3,
+      "loglik": -859.2,
+      "n_params": 68,
+      "bic": 2089.9,
+      "min_state_obs": 55,
+      "eligible": true,
+      "selected": false
+    },
+    {
+      "k": 4,
+      "loglik": -663.2,
+      "n_params": 95,
+      "bic": 1845.5,
+      "min_state_obs": 22,
+      "eligible": true,
+      "selected": true
+    },
+    {
+      "k": 5,
+      "loglik": -533.4,
+      "n_params": 124,
+      "bic": 1744.3,
+      "min_state_obs": 17,
+      "eligible": false,
+      "selected": false
+    }
+  ],
+  "profiles": [
+    {
+      "state_smoothed": "R1",
+      "real10": 0.29,
+      "d12_fedfunds": 0.03,
+      "cpi_yoy": 1.56,
+      "d12_unrate": -0.74,
+      "usd_yoy": 2.78,
+      "label": "Low-rate expansion",
+      "months": 78,
+      "persistence": 0.987
+    },
+    {
+      "state_smoothed": "R2",
+      "real10": 0.31,
+      "d12_fedfunds": 1.87,
+      "cpi_yoy": 6.72,
+      "d12_unrate": -1.63,
+      "usd_yoy": 4.04,
+      "label": "Inflation and tightening",
+      "months": 22,
+      "persistence": 0.955
+    },
+    {
+      "state_smoothed": "R3",
+      "real10": 0.5,
+      "d12_fedfunds": -1.51,
+      "cpi_yoy": 1.18,
+      "d12_unrate": 2.48,
+      "usd_yoy": 1.0,
+      "label": "Recession and easing",
+      "months": 35,
+      "persistence": 0.943
+    },
+    {
+      "state_smoothed": "R4",
+      "real10": 1.4,
+      "d12_fedfunds": -0.05,
+      "cpi_yoy": 2.75,
+      "d12_unrate": 0.03,
+      "usd_yoy": -1.06,
+      "label": "High real rates",
+      "months": 101,
+      "persistence": 0.98
+    }
+  ],
+  "current_state_filtered": "R4",
+  "current_probs": {
+    "p_R1": 0.0,
+    "p_R2": 0.0,
+    "p_R3": 0.001,
+    "p_R4": 0.999
+  },
+  "last_month": "2026-08-01",
+  "agreement_filtered_vs_smoothed": 0.9872881355932204
+}

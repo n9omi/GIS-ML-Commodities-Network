@@ -1,0 +1,203 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "escondida",
+    "name": "Escondida",
+    "type": "mine",
+    "country": "Chile",
+    "buffer_m": 4000,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.07,
+     -24.27
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "chuquicamata",
+    "name": "Chuquicamata",
+    "type": "mine",
+    "country": "Chile",
+    "buffer_m": 4000,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.9,
+     -22.29
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "el_teniente",
+    "name": "El Teniente (surface footprint)",
+    "type": "mine",
+    "country": "Chile",
+    "buffer_m": 3000,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.35,
+     -34.09
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "grasberg",
+    "name": "Grasberg (surface facilities)",
+    "type": "mine",
+    "country": "Indonesia",
+    "buffer_m": 4000,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.11,
+     -4.06
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "kamoa_kakula",
+    "name": "Kamoa-Kakula",
+    "type": "mine",
+    "country": "DR Congo",
+    "buffer_m": 4000,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.3,
+     -10.77
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "cobre_panama",
+    "name": "Cobre Panama",
+    "type": "mine",
+    "country": "Panama",
+    "buffer_m": 4000,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.65,
+     8.83
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "chuqui_smelter",
+    "name": "Chuquicamata smelter",
+    "type": "smelter",
+    "country": "Chile",
+    "buffer_m": 1500,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.92,
+     -22.31
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "caletones",
+    "name": "Caletones smelter",
+    "type": "smelter",
+    "country": "Chile",
+    "buffer_m": 1500,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.45,
+     -34.11
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "garfield",
+    "name": "Kennecott Garfield smelter",
+    "type": "smelter",
+    "country": "United States",
+    "buffer_m": 1500,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.21,
+     40.72
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "miami_az",
+    "name": "Miami smelter",
+    "type": "smelter",
+    "country": "United States",
+    "buffer_m": 1500,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.87,
+     33.4
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "hamburg",
+    "name": "Aurubis Hamburg",
+    "type": "smelter",
+    "country": "Germany",
+    "buffer_m": 1500,
+    "approx": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.021,
+     53.524
+    ]
+   }
+  }
+ ]
+}
