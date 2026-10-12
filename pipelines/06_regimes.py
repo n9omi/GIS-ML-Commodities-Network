@@ -1,4 +1,5 @@
-"""06 - Macro-financial regimes (Gaussian HMM, BIC-selected) and commodity returns by regime.
+"""06 - Macro-financial regimes (Gaussian HMM; lowest BIC among fits with every state >= 20 months) and commodity
+returns by regime.
 
 Panel (monthly, standardized): 10-yr real yield (TIPS), 12-month change in fed funds, CPI
 inflation (y/y), 12-month change in unemployment, broad-dollar change (y/y). October 2025 CPI and
