@@ -65,7 +65,9 @@ flowchart LR
 
 ## Methods in brief
 
-Full specification with formulas and references: [`docs/METHODS.md`](docs/METHODS.md).
+Full specification with formulas and references: [`docs/METHODS.md`](docs/METHODS.md). The original design notes
+are in [`docs/GIS-ML-Commodities-Network-Notes.pdf`](docs/GIS-ML-Commodities-Network-Notes.pdf); their repo layout
+and build order are the plan, and this README and `METHODS.md` describe what was built.
 
 - **Remote sensing.** Windowed COG reads per AOI; Sentinel-2 baseline-04.00 radiometric harmonization; SCL cloud masking
   that keeps saturated pixels for hotspots; normalized hotspot indices (Marchese et al., 2019); leave-one-year-out
@@ -116,6 +118,7 @@ src/gmcn/
   viz/             style.py (one validated palette for every figure)
 pipelines/         01_build_snapshots ... 09_report, numbered and run in order by run.sh
 tests/             unit and end-to-end tests (synthetic rasters, simulated DGPs with known answers)
+docs/              METHODS.md (full specification), design notes (PDF)
 data/raw/          committed API responses + SOURCES.md
 outputs/ figures/ reports/   committed results
 ```
