@@ -1,4 +1,6 @@
 site_id,break_month,nearest_event,days_from_event
+caletones,2023-05-01,kakula_2025,-748
+caletones,2023-10-01,kakula_2025,-595
 caletones,2024-05-01,kakula_2025,-382
 caletones,2024-09-01,kakula_2025,-259
 caletones,2025-04-01,kakula_2025,-47
@@ -6,7 +8,9 @@ caletones,2025-09-01,grasberg_incident_2025,-7
 caletones,2026-05-01,grasberg_force_majeure_2025,219
 chuquicamata,2024-07-01,kakula_2025,-321
 chuquicamata,2024-11-01,kakula_2025,-198
-el_teniente,2024-06-01,kakula_2025,-351
+el_teniente,2023-05-01,kakula_2025,-748
+el_teniente,2023-12-01,kakula_2025,-534
+el_teniente,2024-05-01,kakula_2025,-382
 el_teniente,2024-10-01,kakula_2025,-229
 el_teniente,2025-05-01,kakula_2025,-17
 el_teniente,2025-10-01,grasberg_force_majeure_2025,7
